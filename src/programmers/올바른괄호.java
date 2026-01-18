@@ -1,14 +1,12 @@
 package programmers;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Stack;
 
 public class 올바른괄호 {
     public static boolean solution(String s) {
 
         Stack<Character> strings = new Stack<>();
-        boolean answer = true;
+        boolean answer;
 
         for(int i=0; i < s.length();i++) {
             if (s.charAt(i) == '('){

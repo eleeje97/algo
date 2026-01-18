@@ -16,7 +16,7 @@ public class 베스트앨범 {
             genreTotal.put(genre, genreTotal.getOrDefault(genre, 0) + play);
 
             if (!genreSongs.containsKey(genre)) {
-                genreSongs.put(genre, new ArrayList<int[]>());
+                genreSongs.put(genre, new ArrayList<>());
             }
             genreSongs.get(genre).add(new int[]{i, play});
         }
