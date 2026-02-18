@@ -1,8 +1,6 @@
 package programmers;
 
-import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class 게임맵최단거리 {
@@ -50,15 +48,5 @@ public class 게임맵최단거리 {
 
         System.out.println(solution(maps1));
         System.out.println(solution(maps2));
-    }
-
-    static class Node {
-        int x, y, dist;
-
-        Node(int x, int y, int dist) {
-            this.x = x;
-            this.y = y;
-            this.dist = dist;
-        }
     }
 }

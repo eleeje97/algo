@@ -1,9 +1,5 @@
 package programmers;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class 입국심사 {
     public static long solution(int n, int[] times) {
         long maxTime = 0;
